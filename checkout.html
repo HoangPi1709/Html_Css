@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="module">
+        import RefreshRuntime from "/@react-refresh"
+        RefreshRuntime.injectIntoGlobalHook(window)
+        window.$RefreshReg$ = () => { }
+        window.$RefreshSig$ = () => (type) => type
+        window.__vite_plugin_react_preamble_installed__ = true
+    </script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro</title>
+    <link rel="stylesheet" href="./public/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body monica-version="4.9.3" monica-id="ofpnmcalabcbjgholdjcjblkibolbppb">
+    <div id="root">
+        <div class="container">
+            <header class="header"><a class="header__logo" href="/"><img src="../../public/assets/logo.svg"></a>
+                <div class="nav">
+                    <nav class="main-menu">
+                        <ul class="main-menu__list">
+                            <li class="main-menu__item"><a class="main-menu__link" title="Home" href="/">Home</a></li>
+                            <li class="main-menu__item"><a class="main-menu__link" title="Shop" href="/shop">Shop</a>
+                            </li>
+                            <li class="main-menu__item"><a class="main-menu__link" title="About" href="/">About</a></li>
+                            <li class="main-menu__item"><a class="main-menu__link" title="Contact" href="/">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="block">
+                    <div class="block__item user"><i class="fa-regular fa-user"></i></div>
+                    <div class="block__item search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="block__item wishlist"><i class="fa-regular fa-heart"></i></div>
+                    <div class="block__item cart"><i class="fa-solid fa-cart-plus"></i></div>
+                    <div class="block__item mylist"><i class="fa-solid fa-list"></i></div>
+                </div>
+            </header>
+            <div class="shop-banner">
+                <div class="shop-banner__content">
+                    <h1>Checkout</h1>
+                    <p>Home &gt; Checkout</p>
+                </div>
+            </div>
+            <h1 class="checkout-title">Billing details</h1>
+            <div class="checkout">
+                <div class="checkout-form">
+                    <form action="">
+                        <div class="checkout-form__first"><label for="">First Name<input type="text"></label><label
+                                for="">Last Name<input type="text"></label></div><label for="">Company Name
+                            (Optional)<input type="text"></label><label for="">Country / Region<input
+                                type="text"></label><label for="">Street address<input type="text"></label><label
+                            for="">Town / City<input type="text"></label><label for="">Province<input
+                                type="text"></label><label for="">ZIP code<input type="text"></label><label
+                            for="">Phone<input type="text"></label><label for="">Email address<input
+                                type="text"></label><label for=""><input type="text"
+                                placeholder="Additional information"></label>
+                    </form>
+                </div>
+                <div class="checkout-totals">
+                    <table>
+                        <thead>
+                            <td class="checkout-totals__f">Product</td>
+                            <td class="checkout-totals__s">Subtotal</td>
+                        </thead>
+                        <tr>
+                            <td class="checkout-totals__f">Asgaard sofa x 1</td>
+                            <td class="checkout-totals__s">25.000.000đ</td>
+                        </tr>
+                        <tr>
+                            <td class="checkout-totals__f">Subtotal</td>
+                            <td class="checkout-totals__s">25.000.000đ</td>
+                        </tr>
+                        <tr>
+                            <td class="checkout-totals__f">Total</td>
+                            <td class="checkout-totals__s sum">250.00.000đ</td>
+                        </tr>
+                    </table>
+                    <div class="checkout-totals__rules">
+                        <p><i class="fa-solid fa-circle"></i>Direct Bank Transfer</p>
+                        <p class="checkout-totals__rules-content">Make your payment directly into our bank account.
+                            Please use your Order ID as the payment reference. Your order will not be shipped until the
+                            funds have cleared in our account.</p><label for=""><input type="radio" name="money">
+                            <p></p> Direct Bank Transfer
+                        </label><label for=""><input type="radio" name="money">
+                            <p></p> Cash On Delivery
+                        </label>
+                        <p>Your personal data will be used to support your experience throughout this website, to manage
+                            access to your account, and for other purposes described in our <b>privacy policy.</b></p>
+                        <button>Place order</button>
+                    </div>
+                </div>
+            </div>
+            <div class="services">
+                <ul class="services-menu">
+                    <li class="services-item"><i class="fa-solid fa-trophy"></i>
+                        <div class="services-item__content">
+                            <h1>High Quality</h1>
+                            <p>crafted from top materials</p>
+                        </div>
+                    </li>
+                    <li class="services-item"><i class="fa-regular fa-circle-check"></i>
+                        <div class="services-item__content">
+                            <h1>Warranty Protection</h1>
+                            <p>Over 2 years</p>
+                        </div>
+                    </li>
+                    <li class="services-item"><i class="fa-solid fa-gifts"></i>
+                        <div class="services-item__content">
+                            <h1>Free Shipping</h1>
+                            <p>Order over 150 $</p>
+                        </div>
+                    </li>
+                    <li class="services-item"><i class="fa-solid fa-user-astronaut"></i>
+                        <div class="services-item__content">
+                            <h1>24 / 7 Support</h1>
+                            <p>Dedicated support</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <ul class="footer-list">
+                    <li class="footer-list__item">
+                        <h1>Funiro.</h1>
+                        <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+                    </li>
+                    <li class="footer-list__item">
+                        <h1 class="footer-list__title">Links</h1>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Shop</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-list__item">
+                        <h1 class="footer-list__title">Help</h1>
+                        <ul>
+                            <li><a href="/">Payment Options</a></li>
+                            <li><a href="/">Returns</a></li>
+                            <li><a href="/">About</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-list__item">
+                        <h1 class="footer-list__title">Newsletter</h1>
+                        <form action=""><input type="text" name="" id="" placeholder="Enter Your Email Address"><input
+                                type="submit" value="SUBSCRIBE"></form>
+                    </li>
+                </ul>
+                <div class="copy-right">
+                    <p>2023 furino. All rights reverved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+
+
+    <div id="monica-content-root" class="monica-widget"></div>
+</body>
+
+</html>
